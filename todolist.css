@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  background: url('vintage-wallpaper.png')
+  /* Background pattern from Toptal Subtle Patterns */
+}
+h2 {
+  color: white;
+  font-size: 60px;
+}
+.centerIt {
+  padding: 10px;
+  text-align: center;
+}
+.inputListItem {
+  max-width: 50%;
+  margin: 200px auto auto auto;
+}
+input[type='text'] {
+  padding: 15px;
+  width: 80%;
+}
+.fullList {
+  margin: auto;
+  width: auto;
+  padding: 10px;
+}
+.listItems {
+  list-style: inside upper-roman;
+  padding-left: 0;
+}
+.listItems li {
+  cursor: pointer;
+  font-size: 24px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: lightgrey;
+}
+.listItems li:hover {
+  background-color: darkgrey;
+}
+.close {
+  display: inline-block;
+  float: right;
+}
+.close:hover {
+  color: red;
+}
+.crossOut {
+  text-decoration: line-through;
+  color: green;
+}
